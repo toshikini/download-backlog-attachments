@@ -1,7 +1,6 @@
 ## download_backlog_attachments.sh
 
-指定されたBacklogプロジェクトIDに関連する全ての課題から添付ファイルをダウンロードするスクリプトです。
-各課題に関連する添付ファイルをローカルに保存します。
+指定されたBacklogプロジェクトIDに関連する全ての課題から添付ファイルをダウンロードするスクリプトです。各課題に関連する添付ファイルをローカルに保存します。
 
 ## 事前に必要なコマンド:
 - jq
@@ -24,10 +23,11 @@ https://hlm.backlog.com/EditApiSettings.action
 **-s: BacklogスペースID**
 
 スペースIDは、BacklogのURLに含まれる文字列です。
+
 例: https://[スペースID].backlog.com
 
 **-p: ダウンロード対象のプロジェクトID**
 
 プロジェクトIDは、プロジェクト設定のURLに含まれる数字です。
-例: https://hlm.backlog.com/ViewPermission.action?projectId=[プロジェクトID]
 
+例: https://hlm.backlog.com/ViewPermission.action?projectId=[プロジェクトID]
